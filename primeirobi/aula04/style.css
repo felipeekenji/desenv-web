@@ -1,0 +1,34 @@
+
+
+html {
+    background-color: rgb(139, 205, 231)
+
+}
+
+.relative {
+    margin-top: 50px;
+    top: 10px;
+    height: 35px;
+    width: 100px;
+    background-color: rgb(100,200,150);
+}
+
+.absolute-1{
+    height: 100px;
+    width: 220px;
+    background-color: rgb(145, 216, 155);
+    position: absolute;
+}
+
+.absolute-2{
+    margin-top: 150px;
+    height: 100px;
+    width: 220px;
+    background-color: rgb(185, 216, 145);
+    position: absolute;
+}   
+
+.relative:hover {
+    opacity: 50%;
+}
+/* ao passar o mouse em cima ele muda a opacidade   
